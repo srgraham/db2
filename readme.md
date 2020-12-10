@@ -21,6 +21,9 @@ const config = {
   database: 'database',
   user: 'user',
   pass: 'pass',
+  options: {
+    charset : 'utf8mb4',
+  },
 };
 
 const db = new DB2(config);
